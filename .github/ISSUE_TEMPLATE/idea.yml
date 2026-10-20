@@ -1,0 +1,19 @@
+name: Idea
+description: Something worth exploring, not yet planned
+type: Idea
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why explore it
+  - type: textarea
+    id: first-step
+    attributes:
+      label: First step
+      description: The smallest thing that would test it.

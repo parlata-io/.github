@@ -1,0 +1,31 @@
+name: Bug
+description: An unexpected problem or behavior
+type: Bug
+body:
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: "1. "
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Version, device, environment or URL.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: text

@@ -1,0 +1,40 @@
+name: Decision
+description: A choice the founders still have to make
+type: Decision
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements
+      description: Functional and non-functional requirements the choice must meet.
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: Each option with its trade-offs.
+      value: "1. \n2. "
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+  - type: input
+    id: deadline
+    attributes:
+      label: Decide by
+      placeholder: YYYY-MM-DD
+  - type: checkboxes
+    id: outcome
+    attributes:
+      label: Outcome
+      description: Tick these in the issue once they are true.
+      options:
+        - label: Every founder agreed
+        - label: The outcome is recorded where the work lives
