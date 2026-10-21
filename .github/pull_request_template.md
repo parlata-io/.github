@@ -12,9 +12,7 @@ Closes #
 
 <!-- Commands run, CI results, or what you checked by hand. -->
 
-## Screenshots
-
-<!-- For a visible change; delete this section otherwise. -->
+<!-- Optional: for a visible change, add a "## Screenshots" section here. -->
 
 ## Checklist
 
