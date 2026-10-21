@@ -1,6 +1,6 @@
 # .github
 
-Default issue forms for the repositories of this organization.
+Default issue forms and pull request template for the repositories of this organization.
 
 | Form | Issue type | Use for |
 |:--|:--|:--|
@@ -13,3 +13,6 @@ Default issue forms for the repositories of this organization.
 The forms live in [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/).
 GitHub offers them in every repository of the organization that has no issue templates of its own.
 Blank issues are open to maintainers only.
+
+The pull request template is [`.github/pull_request_template.md`](.github/pull_request_template.md).
+GitHub fills it into every new pull request in a repository of the organization that has no template of its own.
